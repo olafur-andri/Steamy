@@ -9,7 +9,8 @@ public class CharacterController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Cursor.lockState = CursorLockMode.Locked;
-	}
+ 
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -22,5 +23,5 @@ public class CharacterController : MonoBehaviour {
         transform.Translate(straffe, 0, translation);
         if (Input.GetKeyDown("escape"))
             Cursor.lockState = CursorLockMode.None;
-	}
+    }
 }

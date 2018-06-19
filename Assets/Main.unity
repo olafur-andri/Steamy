@@ -4445,10 +4445,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1005970317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e55bdf4ef6375cf41b77d2250517ac0e, type: 3}
+  m_Script: {fileID: 11500000, guid: 614e05c938b270a4aa5b31a5dc889015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  sensitivity: 5
+  smoothing: 2
 --- !u!1001 &1074736059
 Prefab:
   m_ObjectHideFlags: 0
